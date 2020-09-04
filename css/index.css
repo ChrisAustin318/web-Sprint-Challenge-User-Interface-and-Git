@@ -104,12 +104,48 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +179,68 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header {
+    width: 800px;
+    margin: auto;
+}
+
+.head {
+    margin: 20px;
+}
+
+.head nav {
+    display: flex;
+    justify-content: space-around
+}
+
+.head-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.top-img {
+    margin: 15px;
+}
+
+.about {
+    margin: 25px;
+    padding: 15px;
+    border-bottom: dotted;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quad {
+    margin: 50px;
+    width: 37%;
+    border-bottom: dotted;
+    padding-bottom: 45px;
+}
+.text {
+    margin: auto;
+    width: 125%;
+}
+
+.end {
+    margin: 5%;
+}
+
+.more {
+    font-weight: bold;
+    width: 105px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    border: 2px solid;
+    border-radius: 8px;
+}
+.more:hover{
+    background: black;
+    color: white;
 }
